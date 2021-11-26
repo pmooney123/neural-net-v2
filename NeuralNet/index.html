@@ -1,0 +1,53 @@
+<!DOCTYPE html>`
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+            name="Neural Net v0.01"
+            content="A for fun project designed to simulate brain evolution."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Neural Net v0.01</title>
+</head>
+
+<body>
+    <div class = "container-container">
+
+        <div class = "container">
+            <div id = "button-grid" class = "button-grid">
+                <button id = "start" class = "left-button">Start</button>
+                <button id = "pause" class = "left-button">Pause</button>
+                <button id = "stats-button" class = "left-button">Stats</button>
+                <button id = "mutate" class = "left-button">MUTATE</button>
+                <button id = "draw" class = "left-button">Draw?</button>
+            </div>
+        </div>
+
+        <div class = "canvas-container" id = "canvas-con">
+            <canvas id = "canvas" class = "canvas">
+
+            </canvas>
+        </div>
+
+        <div class = "canvas-container">
+            <canvas id = "canvas2" class = "canvas2">
+
+            </canvas>
+        </div>
+        <div class = "container">
+            <text id = "stats">
+                -STATS-
+            </text>
+
+        </div>
+
+    </div>
+
+    <script defer src="scripts/sensors.js"></script>
+    <script defer src="scripts/map.js"></script>
+    <script defer src="scripts/organism.js"></script>
+    <script defer src="scripts/game.js"></script>
+</body>
+
+</html>
